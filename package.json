@@ -1,0 +1,21 @@
+{
+  "name": "Photo-Social-back-end",
+  "version": "1.0.0",
+  "description": "A simple Photo app backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Chuks Onu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "pusher": "^5.0.1"
+  }
+}
