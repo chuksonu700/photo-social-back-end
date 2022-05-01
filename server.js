@@ -77,5 +77,6 @@ app.get('/sync',(req,res)=>{
 
 //LIstener
 app.listen(PORT, () => {
+    console.log(process.env.NODE_ENV)
     console.log(`server up and running on port${PORT}`)
 })
